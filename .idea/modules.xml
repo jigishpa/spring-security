@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/custom-login/custom-login.iml" filepath="$PROJECT_DIR$/custom-login/custom-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-web-security/hello-web-security.iml" filepath="$PROJECT_DIR$/hello-web-security/hello-web-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security.iml" filepath="$PROJECT_DIR$/spring-security.iml" />
     </modules>
   </component>

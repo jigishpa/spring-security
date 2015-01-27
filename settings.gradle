@@ -1,2 +1,6 @@
 rootProject.name = 'spring-security'
 
+include 'hello-web-security'
+
+include 'custom-login'
+

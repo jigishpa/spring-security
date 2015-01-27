@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+sourceCompatibility = 1.8
+version = '1.0'
+
+apply plugin: 'spring-boot'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // core Spring Boot starter, including auto-configuration support, logging and YAML
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+    // dependencies for Spring Security and Spring Security OAuth2
+    compile 'org.springframework.boot:spring-boot-starter-security'
+
+    testCompile 'junit:junit'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
